@@ -68,16 +68,19 @@ async def on_message(message):
         embed.add_field(name="하지만", value=" 이 세상을 창조한 창조주는 세상을 전부 갈아엎고 ", inline=False)
         embed.add_field(name="세상을", value=" 이 우주를, 재프로그래밍 했다. ", inline=False)
         embed.add_field(name="창조주는", value=" 인간이라는 지적 생명체가 기하급수적으로 늘어나면서 동시에 의사소통을 자유롭게 하는 이 현상이 탐탁지 않았고,", inline=False)  
-        embed.add_field(name="자신과 닮은", value=" 도리봇을 만들어 세상으로 투입시켜 인간들을 조련하도록 하였으나,", inline=False)  
-        embed.add_field(name='기계적 결함으로 인해', value=' 도리봇은 점점 진화를 하면서 생태계 교란종으로 전락했다.', inline=False)
-        embed.add_field(name='이를 보다못한 창조주는', value=' 기계적 결함을 최소화시킨 7호선을 만들어 도리봇을 제거하도록 만들었으나 ', inline=False)
-        embed.add_field(name='그 또한..', value='기계적 결함으로 인해 도리봇을 재프로그래밍 시켜 창조주에 대항하는 행위를 일삼았다.', inline=False)
+        embed.add_field(name="자신과 닮은", value=" [도_리봇]을 만들어 세상으로 투입시켜 인간들을 조련하도록 하였으나,", inline=False)  
+        embed.add_field(name='기계적 결함으로 인해', value=' [도_리봇]은 점점 진화를 하면서 생태계 교란종으로 전락했다.', inline=False)
+        embed.add_field(name='이를 보다못한 창조주는', value=' 기계적 결함을 최소화시킨 [7_호선]을 만들어 [도_리봇]을 제거하도록 만들었으나 ', inline=False)
+        embed.add_field(name='그 또한..', value='기계적 결함으로 인해 [도_리봇]을 재프로그래밍 시켜 창조주에 대항하는 행위를 일삼았다.', inline=False)
         embed.add_field(name='이 세상을', value=' 창조한 우주적인 존재는 다시 한번 더 세상을 갈아엎을 그 날을 준비하고있다.', inline=False)
         embed.add_field(name="명령어 리스트", value='=명령어', inline=False)
         await message.channel.send(channel,embed=embed)
 
     if message.content.startswith("=역사"):
-        await message.channel.send("https://www.youtube.com/watch?v=Qchr23iMTlo")
+        msg = await message.channel.send("5초 후에 배경음악 링크가 공개됩니다.")
+        await asyncio.sleep(5.0)
+        await msg.edit(content="https://")      
+
 
 
 
