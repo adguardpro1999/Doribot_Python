@@ -1044,13 +1044,27 @@ async def on_message(message):
     if "나냡" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.") 
-              
        
+    if "나1냡" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.")      
+       
+    if "남냠" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.")        
+                    
     if "도리" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.") 
-              
        
+    if "도1리" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.")   
+       
+    if "돌이" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.")        
+                     
     if "7호선" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 사회 하층민 신분의 닉네임은 언급해도 괜찮습니다. ")  
        
