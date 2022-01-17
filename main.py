@@ -79,7 +79,7 @@ async def on_message(message):
     if message.content.startswith("=역사"):
         msg = await message.channel.send("5초 후에 배경음악 링크가 공개됩니다.")
         await asyncio.sleep(5.0)
-        await msg.edit(content="https://")      
+        await msg.edit(content="https://www.4shared.com/s/fUj97xvCGiq")      
 
 
 
