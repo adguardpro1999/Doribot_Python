@@ -1,0 +1,7 @@
+discord.py==1.5.1
+beautifulsoup4==4.9.3
+requests==2.25.1
+urllib3==1.26.2
+pynacl==1.4.0
+lxml
+pytz
