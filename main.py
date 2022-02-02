@@ -1136,7 +1136,7 @@ async def on_message(message):
     if "HK416" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ") 
       
-     if "M416" in message.content:
+    if "M416" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ")  
        
     if "hk416" in message.content:
@@ -1200,15 +1200,6 @@ async def on_message(message):
             await message.channel.send(embed=discord.Embed(title="[게임]말고 새로운 취미는 없나요? 우리 함께 새로운 취미를 탐색해볼까요?", color=0xff0000))
           
           
-                               
-      
-       
-       
-
-
-
-
-
-
+                              
 accross_token = os.environ["BOT_TOKEN"]
 app.run(accross_token)
