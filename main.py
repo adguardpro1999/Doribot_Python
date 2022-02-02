@@ -506,6 +506,19 @@ async def on_message(message):
          randomNum = random.randrange(1, 2)
          urlF = urlBase+str(randomNum)
          embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)    
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='그의 인격은 여러개로 나뉘어진듯 하다.',
+         description='상당히 인격이 불안정해 보인다.',
+
+        )
+
+         urlBase = 'https://i.imgur.com/F0VJ11C.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
          await message.channel.send( embed=embed)          
 
     if message.content.startswith('=나냡'):
@@ -1063,7 +1076,11 @@ async def on_message(message):
        
     if "돌이" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.")        
+        await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 서버 규칙을 어기는겁니다.") 
+       
+    if "광탈맨" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 닉네임을 언급하는 행위는 분쟁 유발 목적이 다분해보입니다.")        
                      
     if "7호선" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 사회 하층민 신분의 닉네임은 언급해도 괜찮습니다. ")  
