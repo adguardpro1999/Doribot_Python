@@ -1089,9 +1089,85 @@ async def on_message(message):
         await message.channel.send(f"{message.author.mention} 님, 상민 신분의 닉네임은 언급해도 괜찮습니다. ")   
       
     if "1인칭" in message.content:
-        await message.channel.send(f"{message.author.mention} 님, 노예 신분의 닉네임은 언급해도 괜찮습니다. ")        
-             
+        await message.channel.send(f"{message.author.mention} 님, 노예 신분의 닉네임은 언급해도 괜찮습니다. ")   
+      
+    if "그로자" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 해당 총기는 러시아제 총기로, Гроза. 천둥번개라는 뜻을 가지고 있죠.") 
+      
+    if "Groza" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 배그 기준으로 설명하자면 해당 총기는 러시아제 불펍 자동소총으로, 천둥번개, 뇌우라는 의미를 가졌죠.(Образец ЦКИБ-14) '그에 비빌 자, 먼지처럼 분해되어 사라지리니' ")  
+            
+    if "groza" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 배그 기준으로 설명하자면 해당 총기는 러시아제 불펍 자동소총으로, 천둥번개, 뇌우라는 의미를 가졌죠.(Образец ЦКИБ-14) '그에 비빌 자, 먼지처럼 분해되어 사라지리니'")  
+      
+    if "그로자" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 배그 기준으로 설명하자면 해당 총기는 러시아제 불펍 자동소총으로, 천둥번개, 뇌우라는 의미를 가졌죠.(Образец ЦКИБ-14) '그에 비빌 자, 먼지처럼 분해되어 사라지리니'")       
+      
+    if "M249" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 분대지원화기, Squad Automatic Weapon은 미군의 제식 경기관총이죠. 배그 기준 해당 총기는 매우 우수한 집탄력과 연사력을 자랑합니다. '내 앞에 모두 무릎 꿇어라! 산산조각나기 싫으면'") 
+      
+    if "m249" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 분대지원화기, Squad Automatic Weapon은 미군의 제식 경기관총이죠. 배그 기준 해당 총기는 매우 우수한 집탄력과 연사력을 자랑합니다. '내 앞에 모두 무릎 꿇어라! 산산조각나기 싫으면'")   
+      
+    if "DBS" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 미국 Standard Manufacturing 에서 제작된 불펍식 펌프액션 더블배럴 산탄총으로 Shot Show 2015에서 처음 공개되었죠. (DP-12) 총기의 디자인은 매우 매우 UTS-15와 흡사하지만, 이 둘은 전혀 다른 산탄총입니다.")      
+      
+    if "dbs" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 미국 Standard Manufacturing 에서 제작된 불펍식 펌프액션 더블배럴 산탄총으로 Shot Show 2015에서 처음 공개되었죠. (DP-12) 총기의 디자인은 매우 매우 UTS-15와 흡사하지만, 이 둘은 전혀 다른 산탄총입니다.") 
+      
+    if "M1014" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 통합 제식 전투 산탄총, Joint Service Combat Shotgun은 미군의 제식 반자동 산탄총이죠. 모배 기준으로 DP-12를 압살하는 사기급 1티어 산탄총으로 자리잡은 총기입니다. '미군의 군사력은 세계 제일!'")   
+      
+    if "m1014" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 통합 제식 전투 산탄총, Joint Service Combat Shotgun은 미군의 제식 반자동 산탄총이죠. 모배 기준으로 DP-12를 압살하는 사기급 1티어 산탄총으로 자리잡은 총기입니다. '미군의 군사력은 세계 제일!'") 
+      
+    if "AK" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 7.62mm 칼라시니코프 자동소총 현대형은 미하일 칼라시니코프가 개발한 자동소총이죠. GRAU 코드명은 '6П1(6P1)'이며, 줄임말인 'A,K,M'에서 'M'은 'Модернизированный(Modernized, 현대화)'의 약칭입니다.")    
+      
+    if "ak" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 7.62mm 칼라시니코프 자동소총 현대형은 미하일 칼라시니코프가 개발한 자동소총이죠. GRAU 코드명은 '6П1(6P1)'이며, 줄임말인 'A,K,M'에서 'M'은 'Модернизированный(Modernized, 현대화)'의 약칭입니다.")     
+      
+    if "베릴" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 해당 총기는 노후화가 진행될대로 진행된 에켐과, 이미 보급이 시작된지 5년 정도밖에 안 되었던 wz.88 탄탈을 대체하기 위해 개발되었습니다. 우리가 배그에서 흔히 베,릴이라고 생각하는 모델은 7.62×39mm M43 탄을 사용하는 모델이죠. 배그의 단점은 에켐의 개량 버전인 베,릴의 성능을 너무 높게 잡아놨다는 점이죠. 이럴거면 에켐도 버프해줘야하는것 아닐까요? ")   
+      
+    if "엠포" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ")  
+      
+    if "HK416" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ") 
+      
+     if "M416" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ")  
        
+    if "hk416" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ")   
+      
+    if "m416" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ")    
+      
+    if "AUG" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 AUG는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")      
+      
+    if "aug" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 AUG는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")
+      
+    if "어그" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 AUG는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")    
+      
+    if "MG3" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 제2차 세계 대전 중 독일군의 MG42는 내구성, 다목적성 등 여러 면에서 뛰어난 다목적 기관총이었다. 완성도가 워낙 높았기에 이를 전후에도 이용하기 위해 독일군은 사용탄을 7.62×51mm NATO탄으로 바꾸고, 너무 높아서 오히려 문제였던 연사력을 분당 1,000발 정도로 떨어뜨린 것만 빼면 MG42와 별 차이가 없는 MG3를 만들었죠. 'brrrrrrrrrr!! 내 앞에서 모두 비켜라! 먼지가 되기 싫다면.'")      
+      
+    if "mg3" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 제2차 세계 대전 중 독일군의 MG42는 내구성, 다목적성 등 여러 면에서 뛰어난 다목적 기관총이었다. 완성도가 워낙 높았기에 이를 전후에도 이용하기 위해 독일군은 사용탄을 7.62×51mm NATO탄으로 바꾸고, 너무 높아서 오히려 문제였던 연사력을 분당 1,000발 정도로 떨어뜨린 것만 빼면 MG42와 별 차이가 없는 MG3를 만들었죠. 'brrrrrrrrrr!! 내 앞에서 모두 비켜라! 먼지가 되기 싫다면.'")  
+      
+    if "P90" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, FN 프로젝트 90® PDWs는 벨기에의 FN사에서 만든 개인 방어 화기(PDW), 기관단총이죠. 본래 PDW 개념으로 출시되었지만 해당 개념이 사장된 최근에 와서는 그냥 기관단총으로 분류되며, 제조사도 미련없이 PDW 개념을 버리고 기관단총으로 판매하고 있습니다. 흔하지 않은 불펍 방식에, 특이한 탄창, 급탄 구조와 극단적인 간소화를 추구하여 탄생한 독특한 디자인으로 유명합니다. FPS 게임에서 빼놓을수 없는 친구죠.")        
+      
+    if "p90" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, FN 프로젝트 90® PDWs는 벨기에의 FN사에서 만든 개인 방어 화기(PDW), 기관단총이죠. 본래 PDW 개념으로 출시되었지만 해당 개념이 사장된 최근에 와서는 그냥 기관단총으로 분류되며, 제조사도 미련없이 PDW 개념을 버리고 기관단총으로 판매하고 있습니다. 흔하지 않은 불펍 방식에, 특이한 탄창, 급탄 구조와 극단적인 간소화를 추구하여 탄생한 독특한 디자인으로 유명합니다. FPS 게임에서 빼놓을수 없는 친구죠.")        
+      
+    if "피구공" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, FN 프로젝트 90® PDWs는 벨기에의 FN사에서 만든 개인 방어 화기(PDW), 기관단총이죠. 본래 PDW 개념으로 출시되었지만 해당 개념이 사장된 최근에 와서는 그냥 기관단총으로 분류되며, 제조사도 미련없이 PDW 개념을 버리고 기관단총으로 판매하고 있습니다. 흔하지 않은 불펍 방식에, 특이한 탄창, 급탄 구조와 극단적인 간소화를 추구하여 탄생한 독특한 디자인으로 유명합니다. FPS 게임에서 빼놓을수 없는 친구죠.")        
       
     if message.content.startswith("게임") or message.content.startswith("겜"):          
         dtime = datetime.datetime.now()
