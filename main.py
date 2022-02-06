@@ -1007,6 +1007,14 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")  
        
+    if "페미" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")  
+       
+    if "패미" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")
+       
     if "정공" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님, 사회복무요원 비하 발언은 우리 서버 규칙을 어긴겁니다.")     
