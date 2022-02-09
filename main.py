@@ -1057,6 +1057,10 @@ async def on_message(message):
     if "youtu.be" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님, 링크 공유는 서버 규칙을 어긴겁니다.")
+       
+    if "youtube" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 링크 공유는 서버 규칙을 어긴겁니다.")       
       
     if "gall.dcinside.com" in message.content:
         await message.delete()
