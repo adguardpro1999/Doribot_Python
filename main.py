@@ -1144,7 +1144,7 @@ async def on_message(message):
     if "AK" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 7.62mm 칼라시니코프 자동소총 현대형은 미하일 칼라시니코프가 개발한 자동소총이죠. GRAU 코드명은 '6П1(6P1)'이며, 줄임말인 'A,K,M'에서 'M'은 'Модернизированный(Modernized, 현대화)'의 약칭입니다.")    
       
-    if "ak" in message.content:
+    if "akm" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 7.62mm 칼라시니코프 자동소총 현대형은 미하일 칼라시니코프가 개발한 자동소총이죠. GRAU 코드명은 '6П1(6P1)'이며, 줄임말인 'A,K,M'에서 'M'은 'Модернизированный(Modernized, 현대화)'의 약칭입니다.")     
       
     if "베릴" in message.content:
@@ -1166,13 +1166,13 @@ async def on_message(message):
         await message.channel.send(f"{message.author.mention} 님, 독일의 H&K 사에서 제작한 카빈형 돌격소총으로 현재 미합중국 해병대와 프랑스군의 제식소총이며, 델타포스, 스페츠나츠, GIGN 등 세계 각국의 특수부대와 한국군 특수부대에서도 널리 사용되고 있는 등 H&K의 주력상품 중 하나가 되었습니다. 배그에서의 엠,포는 엠,십,육 계열이 아니라 HK,416에서 M,416으로 네이밍만 바꾼것입니다. ")    
       
     if "AUG" in message.content:
-        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 AUG는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")      
+        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 A,U,G는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")      
       
     if "aug" in message.content:
-        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 AUG는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")
+        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 A,U,G는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")
       
     if "어그" in message.content:
-        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 AUG는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")    
+        await message.channel.send(f"{message.author.mention} 님, 슈타이어 만리허가 1977년에 개발하고 오스트리아 육군이 채용한 불펍식 돌격소총으로 A,U,G는 독일어로 Armee Universale Gewehr, 즉, '군용 다목적 소총'의 약자죠.")    
       
     if "MG3" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 제2차 세계 대전 중 독일군의 MG42는 내구성, 다목적성 등 여러 면에서 뛰어난 다목적 기관총이었다. 완성도가 워낙 높았기에 이를 전후에도 이용하기 위해 독일군은 사용탄을 7.62×51mm NATO탄으로 바꾸고, 너무 높아서 오히려 문제였던 연사력을 분당 1,000발 정도로 떨어뜨린 것만 빼면 MG42와 별 차이가 없는 MG3를 만들었죠. 'brrrrrrrrrr!! 내 앞에서 모두 비켜라! 먼지가 되기 싫다면.'")      
