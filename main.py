@@ -935,6 +935,22 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
        
+    if "존나" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.") 
+       
+    if "ㅈㄴ" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")  
+       
+    if "존1나" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")     
+       
+    if "ㅈ1ㄴ" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")          
+       
     if "닥치" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")
