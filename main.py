@@ -1015,6 +1015,14 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")
        
+    if "장애" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")  
+       
+    if "장1애" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")            
+       
     if "정공" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님, 사회복무요원 비하 발언은 우리 서버 규칙을 어긴겁니다.")     
@@ -1042,6 +1050,39 @@ async def on_message(message):
       
     if "죽을" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 생명은 소중한 것입니다.")
+      
+    if "완다" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 완,다 막시모프는 마블 시네마틱 유니버스의 스,칼,렛 위치입니다. 담당 배우는 엘리자베스 올슨이죠. 완,다는 그동안 인체 실험으로 능력을 얻었다고만 알고 있었으나, 완,다,비,전에서 밝혀진 완,다의 과거에 따르면 완,다는 태어날 때부터 능력을 지니고 태어났다가 마인드 스톤을 통해 각성한 것에 가깝다고 합니다.")      
+      
+    if "스칼렛" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 완,다 막시모프는 마블 시네마틱 유니버스의 스,칼,렛 위치입니다. 담당 배우는 엘리자베스 올슨이죠. 완,다는 그동안 인체 실험으로 능력을 얻었다고만 알고 있었으나, 완,다,비,전에서 밝혀진 완,다의 과거에 따르면 완,다는 태어날 때부터 능력을 지니고 태어났다가 마인드 스톤을 통해 각성한 것에 가깝다고 합니다.")   
+      
+    if "닥터스트레인지" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 닥,터,스,트,레,인,지는 마블 시네마틱 유니버스의 닥,터,스,트,레,인,지입니다. 담당 배우는 베네딕트 컴버배치가 연기하죠. 본래 천재적이고 뛰어난 의료 실력을 가진 오만하고 이기적인 신경외과 의사였지만, 교통사고로 신경외과로서 중요한 손을 못 쓰게 되자 손을 고치기 위해 마법사 에,인,션,트 원를 찾아가 제자가 되고, 마법을 익히고 배우면서 에,인,션,트 원의 죽음 이후 최강의 마법사가 된다.")         
+      
+    if "닥스" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 닥,터,스,트,레,인,지는 마블 시네마틱 유니버스의 닥,터,스,트,레,인,지입니다. 담당 배우는 베네딕트 컴버배치가 연기하죠. 본래 천재적이고 뛰어난 의료 실력을 가진 오만하고 이기적인 신경외과 의사였지만, 교통사고로 신경외과로서 중요한 손을 못 쓰게 되자 손을 고치기 위해 마법사 에,인,션,트 원를 찾아가 제자가 되고, 마법을 익히고 배우면서 에,인,션,트 원의 죽음 이후 최강의 마법사가 된다.")    
+      
+    if "토니" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 아,이,언,맨이자 토,니,스,타,크는 마블 시네마틱 유니버스의 아,이,언,맨이자, 아,이,언,맨 실사영화 시리즈의 주인공이며, 캡,틴 아,메,리,카와 함께 인피니티 사가의 메인 히어로이자 동시에 진 주인공이죠. 담당 배우는 로,버,트,다,우,니,주,니,어 입니다.")         
+      
+    if "아이언맨" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 아,이,언,맨이자 토,니,스,타,크는 마블 시네마틱 유니버스의 아,이,언,맨이자, 아,이,언,맨 실사영화 시리즈의 주인공이며, 캡,틴 아,메,리,카와 함께 인피니티 사가의 메인 히어로이자 동시에 진 주인공이죠. 담당 배우는 로,버,트,다,우,니,주,니,어 입니다.")    
+      
+    if "로다주" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 아,이,언,맨이자 토,니,스,타,크는 마블 시네마틱 유니버스의 아,이,언,맨이자, 아,이,언,맨 실사영화 시리즈의 주인공이며, 캡,틴 아,메,리,카와 함께 인피니티 사가의 메인 히어로이자 동시에 진 주인공이죠. 담당 배우는 로,버,트,다,우,니,주,니,어 입니다.")     
+      
+    if "캡틴" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 담당 배우는 크,리,스,에,반,스, 1대 캡,틴,아,메,리,카이자 본명은 스,티,브,로,저,스 입니다. 제2차 세계대전 당시 너무 허약해서 미 육군 입대를 거부당할 정도로 빈약한 몸을 지닌 청년이었지만, 조국에 봉사하기 위해 초인 병사 계획 [프로젝트 리버스]에 자원하여 특수 혈청을 맞고 모든 능력을 인간의 한계까지 끌어올린 초인이 되었습니다. 특유의 캡,틴 아,메,리,카 코스튬과 비브라늄 방패를 들고 제2차 세계대전에 참전했었죠. 버,키,반,스가 주요 파트너였습니다. 추후에 버,키는 윈,터,솔,저가 됩니다.")     
+      
+    if "캡아" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 담당 배우는 크,리,스,에,반,스, 1대 캡,틴,아,메,리,카이자 본명은 스,티,브,로,저,스 입니다. 제2차 세계대전 당시 너무 허약해서 미 육군 입대를 거부당할 정도로 빈약한 몸을 지닌 청년이었지만, 조국에 봉사하기 위해 초인 병사 계획 [프로젝트 리버스]에 자원하여 특수 혈청을 맞고 모든 능력을 인간의 한계까지 끌어올린 초인이 되었습니다. 특유의 캡,틴 아,메,리,카 코스튬과 비브라늄 방패를 들고 제2차 세계대전에 참전했었죠. 버,키,반,스가 주요 파트너였습니다. 추후에 버,키는 윈,터,솔,저가 됩니다.")   
+      
+    if "스파이더맨" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 마블 코믹스의 등장인물. 본명은 피,터,파,커. 스탠 리, 스티브 딧코 콤비가 만들었으며, 스탠 리가 자식처럼 아꼈던 캐릭터. 첫 등장은 1962년 8월 발간된 어메이징 판타지(Amazing Fantasy) 15호로, 코믹스 최초의 단독 주인공 10대 히어로이다.")  
+      
+    if "피터파커" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 마블 코믹스의 등장인물. 본명은 피,터,파,커. 스탠 리, 스티브 딧코 콤비가 만들었으며, 스탠 리가 자식처럼 아꼈던 캐릭터. 첫 등장은 1962년 8월 발간된 어메이징 판타지(Amazing Fantasy) 15호로, 코믹스 최초의 단독 주인공 10대 히어로이다.")         
       
     if "새해" in message.content:
         await message.channel.send(f"{message.author.mention} 님, [새_해] 복 많이 받으시길 바랍니다.")     
