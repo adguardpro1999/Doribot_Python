@@ -142,7 +142,7 @@ async def on_message(message):
         embed.add_field(name="===", value="퀵 보이스 한국어 버전 신규 추가", inline=False)
         await message.channel.send(channel,embed=embed)  
 
-    if message.content.startswith('?모배_릴리즈'):
+    if message.content.startswith('=모배_릴리즈'):
         channel = message.channel
         embed = discord.Embed(
             title = '배틀그라운드 모바일의 업데이트 내역입니다.  ',
@@ -178,7 +178,7 @@ async def on_message(message):
         embed.add_field(name="===", value="더욱 유니크한 Royale Pass 시즌 13 (5/13)", inline=False) 
         await message.channel.send(channel,embed=embed)
 
-    if message.content.startswith('?모배_릴리즈'):
+    if message.content.startswith('=모배_릴리즈'):
         channel = message.channel
         embed = discord.Embed(
             title = '배틀그라운드 모바일의 업데이트 내역입니다.  ',
@@ -217,7 +217,7 @@ async def on_message(message):
         embed.add_field(name="===", value="[배틀그라운드 모바일x프로미스나인]", inline=False)
         await message.channel.send(channel,embed=embed)
 
-    if message.content.startswith('?모배_릴리즈'):
+    if message.content.startswith('=모배_릴리즈'):
         channel = message.channel
         embed = discord.Embed(
             title = '배틀그라운드 모바일의 업데이트 내역입니다.  ',
