@@ -99,10 +99,143 @@ async def on_message(message):
         embed.add_field(name ='=창조주', value = "도리봇이 우주적인 존재의 TMI를 불러옵니다.",inline = False)
         embed.add_field(name ='=창조물', value = "도리봇이 우주적인 존재의 창조물들에 대한 TMI를 불러옵니다.",inline = False)
         embed.add_field(name ='=음식추천', value = "도리봇이 당신에게 음식 하나를 추천해줄 것입니다.",inline = False)
-        embed.add_field(name ='=대한민국', value = "도리봇이 대한민국의 현실에 대해 팩트를 날릴겁니다.",inline = False)        
+        embed.add_field(name ='=대한민국', value = "도리봇이 대한민국의 현실에 대해 팩트를 날릴겁니다.",inline = False)   
+        embed.add_field(name ='=모배_릴리즈', value = "도리봇이 배틀그라운드 모바일의 릴리즈 내역을 불러옵니다.",inline = False)
         embed.add_field(name ='=게임허락', value = "도리봇에게 게임 허락을 받아보세요, 봇이 게임을 플레이 하는것을 허락하지 않는다면 그날은 게임 안 돌리는겁니다?",inline = False)
         await message.channel.send(channel,embed=embed)
 
+  
+    if message.content.startswith('=모배_릴리즈'):
+        channel = message.channel
+        embed = discord.Embed(
+            title = '배틀그라운드 모바일의 업데이트 내역입니다.  ',
+            description = 'Apple 앱스토어 기준입니다.',
+            colour = discord.Colour.red()
+        )
+
+        dtime = datetime.datetime.now()
+        embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+"")
+        embed.add_field(name = '0.5.0', value = '===',inline = False)
+        embed.add_field(name='===', value='======', inline=False)
+        embed.add_field(name="0.6.0", value="신규 아케이드 모드 추가", inline=False)  
+        embed.add_field(name="===", value="총기창고 및 총기스킨 추가", inline=False)  
+        embed.add_field(name="===", value="1,인,칭(FPP)모드 추가", inline=False)    
+        embed.add_field(name="===", value="======", inline=False) 
+        embed.add_field(name="0.7.0", value="클랜 시스템 대규모 업데이트", inline=False) 
+        embed.add_field(name="===", value="아케이드 모드 [워모드] 추가", inline=False)  
+        embed.add_field(name="===", value="로비 UI 개선", inline=False)   
+        embed.add_field(name="===", value="======", inline=False)  
+        embed.add_field(name="0.8.0", value="신규 맵 [사녹] 등장: 더 작아진 전장에서, 더 치열한 전투를 즐기세요.", inline=False)   
+        embed.add_field(name="===", value="QBZ, 방탄UAZ 추가: 새로운 아이템과 함께 새로운 전장을 장악하세요.", inline=False) 
+        embed.add_field(name="===", value="최적화 진행: 보다 쾌적한 환경에서 모바일 배그를 즐기실 수 있습니다.", inline=False)
+        embed.add_field(name="===", value="======", inline=False) 
+        embed.add_field(name="0.9.0", value="할로윈 축제: 배틀그라운드에서 할로윈 축제를 즐겨보세요!", inline=False)   
+        embed.add_field(name="===", value="야간모드: 어둠 속의 적을 찾아 최후의 승자가 되어보세요!", inline=False) 
+        embed.add_field(name="===", value="크루전: 크루원들과 함께 크루전의 승자가 되어보세요!", inline=False)
+        embed.add_field(name="===", value="======", inline=False) 
+        embed.add_field(name="0.9.1", value="할로윈 축제: 배틀그라운드에서 할로윈 축제를 즐겨보세요!", inline=False)   
+        embed.add_field(name="===", value="야간모드: 어둠 속의 적을 찾아 최후의 승자가 되어보세요!", inline=False) 
+        embed.add_field(name="===", value="크루전: 크루원들과 함께 크루전의 승자가 되어보세요!", inline=False)
+        embed.add_field(name="===", value="======", inline=False)     
+        embed.add_field(name="0.10.0", value="신규 맵 비켄디 오픈", inline=False)   
+        embed.add_field(name="===", value="총기 스킨 업그레이드 시스템", inline=False) 
+        embed.add_field(name="===", value="퀵 보이스 한국어 버전 신규 추가", inline=False)
+        await message.channel.send(channel,embed=embed)  
+
+    if message.content.startswith('?모배_릴리즈'):
+        channel = message.channel
+        embed = discord.Embed(
+            title = '배틀그라운드 모바일의 업데이트 내역입니다.  ',
+            description = '(1/4)',
+            colour = discord.Colour.red()
+        )
+
+        dtime = datetime.datetime.now()
+        embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+"")
+        embed.add_field(name="0.11.0", value="BIOHAZARD RE: 모드 추가", inline=False)   
+        embed.add_field(name="===", value="월광모드 추가", inline=False) 
+        embed.add_field(name="===", value="아케이드 모드에 사녹 맵 추가", inline=False)
+        embed.add_field(name="===", value="======", inline=False)  
+        embed.add_field(name="0.12.0", value="서바이벌 모드 [좀비 - 황혼의 탈출] 신규 추가", inline=False)   
+        embed.add_field(name="===", value="[좀비 - 새벽의 저주] 2탄 업그레이드", inline=False) 
+        embed.add_field(name="===", value="======", inline=False)  
+        embed.add_field(name="0.13.0", value="팀 데스 매치 모드 신규 출시", inline=False)   
+        embed.add_field(name="===", value="비켄디 맵 & 좀비 모드 개선", inline=False) 
+        embed.add_field(name="===", value="======", inline=False)    
+        embed.add_field(name="0.14.0", value="신규 모드 바이러스 인펙션 출시", inline=False)   
+        embed.add_field(name="===", value="SMG 애호가 빅토르 신규 출시", inline=False) 
+        embed.add_field(name="===", value="======", inline=False)   
+        embed.add_field(name="0.15.0", value="클래식 모드 업데이트", inline=False)   
+        embed.add_field(name="===", value="헤비 머신건 모드 신규 추가", inline=False) 
+        embed.add_field(name="===", value="======", inline=False)   
+        embed.add_field(name="0.16.0", value="신규 모드 기어 아레나 출시", inline=False)   
+        embed.add_field(name="===", value="에란겔 겨울 모드 추가", inline=False) 
+        embed.add_field(name="===", value="======", inline=False)  
+        embed.add_field(name="0.17.0", value="2주년 기념 테마파크 맵 & 푸짐한 이벤트", inline=False)   
+        embed.add_field(name="===", value="클래식 모드 업데이트 -데스캠, 총기 밸런싱", inline=False) 
+        embed.add_field(name="===", value="======", inline=False)   
+        embed.add_field(name="0.18.0", value="새로워진 미라마 & 캔티드 사이트 등장!", inline=False)   
+        embed.add_field(name="===", value="더욱 유니크한 Royale Pass 시즌 13 (5/13)", inline=False) 
+        await message.channel.send(channel,embed=embed)
+
+    if message.content.startswith('?모배_릴리즈'):
+        channel = message.channel
+        embed = discord.Embed(
+            title = '배틀그라운드 모바일의 업데이트 내역입니다.  ',
+            description = '(2/4)',
+            colour = discord.Colour.red()
+        )
+
+        dtime = datetime.datetime.now()
+        embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+"")
+        embed.add_field(name="0.19.0", value="신규 클래식 맵 LIVIK(리빅) 업데이트!", inline=False)   
+        embed.add_field(name="===", value="리빅 전용 신규 총기 P90 & MK12, 신규 차량 몬스터 트럭 등장!", inline=False) 
+        embed.add_field(name="===", value="======", inline=False)         
+        embed.add_field(name="1.0.0", value="배틀그라운드 모바일 두 번째 이야기", inline=False)   
+        embed.add_field(name="===", value="[에란겔 리마스터]", inline=False) 
+        embed.add_field(name="===", value="[그래픽 및 인터페이스(UI) 개선]", inline=False)
+        embed.add_field(name="===", value="======", inline=False) 
+        embed.add_field(name="1.1.0", value="[메트로 로얄]", inline=False)   
+        embed.add_field(name="===", value="[에란겔-메트로]", inline=False) 
+        embed.add_field(name="===", value="[클래식 모드 업데이트]", inline=False)
+        embed.add_field(name="===", value="======", inline=False)         
+        embed.add_field(name="1.2.0", value="[에란겔-룬 테마 모드]", inline=False)   
+        embed.add_field(name="===", value="[메트로 로얄-시즌2]", inline=False)            
+        embed.add_field(name="===", value="======", inline=False)   
+        embed.add_field(name="1.3.0", value="[에란겔-3주년 뮤직 테마 모드]", inline=False)   
+        embed.add_field(name="===", value="[모신 나강, 모터 글라이더 신규 등장]", inline=False) 
+        embed.add_field(name="===", value="======", inline=False) 
+        embed.add_field(name="1.4.0", value="[한국 서비스 3주년]", inline=False)   
+        embed.add_field(name="===", value="[콜라보 테마 모드-고질라 vs 콩]", inline=False) 
+        embed.add_field(name="===", value="======", inline=False) 
+        embed.add_field(name="1.5.0", value="[신규 총기 MG3]", inline=False)   
+        embed.add_field(name="===", value="[치료제 투척 및 전투 개선]", inline=False) 
+        embed.add_field(name="===", value="[하이테크놀로지 테마 모드]", inline=False)
+        embed.add_field(name="===", value="======", inline=False)   
+        embed.add_field(name="1.6.0", value="[NEW 에일리언 하자드 모드]", inline=False)   
+        embed.add_field(name="===", value="[클래식 모드 개선]", inline=False) 
+        embed.add_field(name="===", value="[배틀그라운드 모바일x프로미스나인]", inline=False)
+        await message.channel.send(channel,embed=embed)
+
+    if message.content.startswith('?모배_릴리즈'):
+        channel = message.channel
+        embed = discord.Embed(
+            title = '배틀그라운드 모바일의 업데이트 내역입니다.  ',
+            description = '(3/4)',
+            colour = discord.Colour.red()
+        )
+
+        dtime = datetime.datetime.now()
+        embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+"")
+        embed.add_field(name="1.7.0", value="[배틀그라운드 모바일 x 아케인 | 미러 월드 테마 모드]", inline=False)   
+        embed.add_field(name="===", value="[배틀그라운드 모바일 x 아케인 | 치킨의 소환사 이벤트]", inline=False) 
+        embed.add_field(name="===", value="[클래식 모드 개선]", inline=False)
+        embed.add_field(name="===", value="======", inline=False) 
+        embed.add_field(name="1.8.0", value="[배틀그라운드 모바일 x [스파이더맨™: 노 웨이 홈] | 스파이더맨 테마 모드]", inline=False)   
+        embed.add_field(name="===", value="[신규 클래식 맵 | 리빅: 아포칼립스]", inline=False) 
+        embed.add_field(name="===", value="[클래식 모드 기능 추가]", inline=False)
+        embed.add_field(name="===", value="======", inline=False)        
+        await message.channel.send(channel,embed=embed)          
 
     if message.content.startswith("=MBTI"):
         await message.channel.send("당신의 MBTI에 대한 설명을 불러옵니다.")    
