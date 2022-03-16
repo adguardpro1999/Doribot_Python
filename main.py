@@ -1026,7 +1026,23 @@ async def on_message(message):
        
     if "한1남" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 젠,더,갈,등 관련 단어입니다, 사용하지마세요.")        
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 젠,더,갈,등 관련 단어입니다, 사용하지마세요.")  
+       
+    if "1번남" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 젠,더,갈,등 관련 단어입니다, 사용하지마세요.") 
+       
+    if "1번녀" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 젠,더,갈,등 관련 단어입니다, 사용하지마세요.")   
+       
+    if "2번남" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 젠,더,갈,등 관련 단어입니다, 사용하지마세요.") 
+       
+    if "2번녀" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 젠,더,갈,등 관련 단어입니다, 사용하지마세요.")         
        
     if "애비" in message.content:
         await message.delete()
