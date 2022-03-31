@@ -234,7 +234,11 @@ async def on_message(message):
         embed.add_field(name="1.8.0", value="[배틀그라운드 모바일 x [스파이더맨™: 노 웨이 홈] | 스파이더맨 테마 모드]", inline=False)   
         embed.add_field(name="===", value="[신규 클래식 맵 | 리빅: 아포칼립스]", inline=False) 
         embed.add_field(name="===", value="[클래식 모드 기능 추가]", inline=False)
-        embed.add_field(name="===", value="======", inline=False)        
+        embed.add_field(name="===", value="======", inline=False)      
+        embed.add_field(name="1.9.0", value="[알록달록 4주년 테마 모드]", inline=False)   
+        embed.add_field(name="===", value="[플레이그라운드 리뉴얼]", inline=False) 
+        embed.add_field(name="===", value="[에란겔 밀리터리 베이스 철교 리뉴얼]", inline=False)
+        embed.add_field(name="===", value="======", inline=False)    
         await message.channel.send(channel,embed=embed)          
 
     if message.content.startswith("=MBTI"):
@@ -894,19 +898,19 @@ async def on_message(message):
        
     if "씨발" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "씨1발" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")       
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")       
        
     if "시발" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "시1발" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")       
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")       
        
     if "병신" in message.content:
         await message.delete()
@@ -942,11 +946,11 @@ async def on_message(message):
        
     if "fuck" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성,관,계를 의미하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "FUCK" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")       
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성,관,계를 의미하는 욕설로, 우리 서버 규칙을 어기는 행위죠..")       
      
     if "븅신" in message.content:
         await message.delete()
@@ -966,35 +970,35 @@ async def on_message(message):
        
     if "보지" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 여성의 생,식,기를 의미하는 비속어로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "보1지" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 여성의 생,식,기를 의미하는 비속어로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "자지" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 남성의 성,기를 의미하는 비속어로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "자1지" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")        
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 남성의 성,기를 의미하는 비속어로, 우리 서버 규칙을 어기는 행위죠.")        
        
     if "ㅅㅂ" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "ㅅ1ㅂ" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")        
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")        
        
     if "ㅆㅂ" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "ㅆ1ㅂ" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")        
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 문란한 성,관,계로 몸이 더럽혀진 여성을 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")        
        
     if "ㅂㅅ" in message.content:
         await message.delete()
@@ -1078,27 +1082,27 @@ async def on_message(message):
        
     if "봊" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 여성의 생,식,기를 의미하는 비속어로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "좆" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 남성의 성,기를 의미하는 비속어로, 우리 서버 규칙을 어기는 행위죠.")
        
     if "존나" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.") 
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 발,기된 남성의 성,기를 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.") 
        
     if "ㅈㄴ" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")  
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 발,기된 남성의 성,기를 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")  
        
     if "존1나" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")     
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 발,기된 남성의 성,기를 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")     
        
     if "ㅈ1ㄴ" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")          
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 발,기된 남성의 성,기를 비하하는 욕설로, 우리 서버 규칙을 어기는 행위죠.")          
        
     if "닥치" in message.content:
         await message.delete()
