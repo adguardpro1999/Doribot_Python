@@ -1148,9 +1148,29 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")  
        
+    if "아가리" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")   
+       
+    if "보빨" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.") 
+       
+    if "보1빨" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.")        
+       
+    if "물소" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.")           
+       
     if "이기" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님, 일,베 또는 메,갈에서 파생된 단어를 사용하지 마세요.")  
+       
+    if "이1기" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 메,갈에서 파생된 단어를 사용하지 마세요.")        
        
     if "피싸개" in message.content:
         await message.delete()
