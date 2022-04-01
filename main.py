@@ -1138,7 +1138,15 @@ async def on_message(message):
               
     if "ㅄ" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님, 남들과 다른 존재를 비하하는 단어를 사용하지마세요.")    
+        await message.channel.send(f"{message.author.mention} 님, 남들과 다른 존재를 비하하는 단어를 사용하지마세요.")  
+       
+    if "노무" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.")        
+       
+    if "노1무" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.")        
        
     if "지랄" in message.content:
         await message.delete()
@@ -1146,7 +1154,15 @@ async def on_message(message):
        
     if "지1랄" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")        
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.") 
+       
+    if "ㅈㄹ" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 사용하신 단어는 간질병환자들을 조롱하는 의미를 가진 욕설이고, 우리 서버 규칙을 어기는 행위죠.")  
+       
+    if "ㅈ1ㄹ" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 사용하신 단어는 간질병환자들을 조롱하는 의미를 가진 욕설이고, 우리 서버 규칙을 어기는 행위죠.")           
        
     if "Fuck" in message.content:
         await message.delete()
