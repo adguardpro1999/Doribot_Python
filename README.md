@@ -21,6 +21,15 @@
 <p>그 또한.. 기계적 결함으로 인해 도리봇을 재프로그래밍 시켜 창조주에 대항하는 행위를 일삼았다. </p>
 <p>이 세상을 창조한 우주적인 존재는 다시 한번 더 세상을 갈아엎을 그 날을 준비하고있다.</p>
 
+<h1>ScreenShots</h1>
+<pre>
+<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/1.PNG?raw=true">
+<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/2.PNG?raw=true">
+<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/3.PNG?raw=true">
+<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/4.PNG?raw=true">
+<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/5.PNG?raw=true">
+</pre>
+
 <h1>봇 초대 링크</h1>
 <a href="https://discordapp.com/oauth2/authorize?client_id=844108240492560000&scope=bot">초대하기</a>
 
