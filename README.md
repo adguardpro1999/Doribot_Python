@@ -24,7 +24,7 @@
 <h1>ScreenShots</h1>
 <pre>
 <img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/1.PNG?raw=true">
-<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/2.PNG?raw=true">
+<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/2.png?raw=true">
 <img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/3.PNG?raw=true">
 <img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/4.PNG?raw=true">
 <img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/5.PNG?raw=true">
