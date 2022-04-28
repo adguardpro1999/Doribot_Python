@@ -656,7 +656,59 @@ async def on_message(message):
          randomNum = random.randrange(1, 2)
          urlF = urlBase+str(randomNum)
          embed.set_image(url = urlF)
-         await message.channel.send( embed=embed)          
+         await message.channel.send( embed=embed)        
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (1/3)',
+         description='자기랑 게임을 안돌려주는 비스킷의 관심을 끌기 위해 빅광탈맨인척 주작질',
+
+        )
+
+         urlBase = 'https://i.imgur.com/FuwUHyI.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)       
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (2/3)',
+         description='자기 혼자서 북치고 장구치고 다 하는 모습을 보여줌.',
+
+        )
+
+         urlBase = 'https://i.imgur.com/BtoiTMA.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)   
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (3/3)',
+         description='먼저 제발로 디코서버 나가면서 [다시는 디코섭 들어갈일 없다며?]',
+
+        )
+
+         urlBase = 'https://i.imgur.com/RjLVEk5.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)      
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (3/3)',
+         description='먼저 제발로 디코서버 나가면서 [다시는 디코섭 들어갈일 없다며?] +추가',
+
+        )
+
+         urlBase = 'https://i.imgur.com/Me4cwXH.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)            
 
     if message.content.startswith('=나냡'):
         channel = message.channel
