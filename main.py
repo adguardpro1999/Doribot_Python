@@ -1383,6 +1383,9 @@ async def on_message(message):
     if "피터파커" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 마블 코믹스의 등장인물. 본명은 피,터,파,커. 스탠 리, 스티브 딧코 콤비가 만들었으며, 스탠 리가 자식처럼 아꼈던 캐릭터. 첫 등장은 1962년 8월 발간된 어메이징 판타지(Amazing Fantasy) 15호로, 코믹스 최초의 단독 주인공 10대 히어로이다.")         
       
+    if "호크아이" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 마블 시네마틱 유니버스의 호,크,아,이의 담당배우는 제,레,미,레,너이며, 어,벤,져,스 멤버중 가장 인간적이고 관객이 몰입하기 쉬운 캐릭터입니다. 그는 최고의 명사수이자 최고의 아버지죠.")  
+      
     if "새해" in message.content:
         await message.channel.send(f"{message.author.mention} 님, [새_해] 복 많이 받으시길 바랍니다.")     
       
