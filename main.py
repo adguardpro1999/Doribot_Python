@@ -1220,8 +1220,12 @@ async def on_message(message):
        
     if "씨1팔" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")          
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")      
        
+    if "7시" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 지역비하 발언이 감지되었습니다.")       
+                    
     if "ㅈㄹ" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 사용하신 단어는 간질병환자들을 조롱하는 의미를 가진 욕설이고, 우리 서버 규칙을 어기는 행위죠.")  
