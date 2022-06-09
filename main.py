@@ -1168,7 +1168,15 @@ async def on_message(message):
        
     if "꺼1져" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")        
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.") 
+       
+    if "꺼지" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 금칙어와 매우 유사한 단어입니다. 순화하세요.") 
+       
+    if "꺼1지" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 금칙어와 매우 유사한 단어입니다. 순화하세요.")         
        
     if "ㄲㅈ" in message.content:
         await message.delete()
@@ -1198,6 +1206,22 @@ async def on_message(message):
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.") 
        
+    if "시팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")
+       
+    if "시1팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")  
+       
+    if "씨팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")       
+       
+    if "씨1팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")          
+       
     if "ㅈㄹ" in message.content:
         await message.delete()
         await message.channel.send(f"{message.author.mention} 님이 사용하신 단어는 간질병환자들을 조롱하는 의미를 가진 욕설이고, 우리 서버 규칙을 어기는 행위죠.")  
@@ -1212,7 +1236,23 @@ async def on_message(message):
        
     if "아가리" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")   
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")  
+       
+    if "조선족" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 일부 소수자들을 비하하는 비속이입니다.")  
+       
+    if "조1선족" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 일부 소수자들을 비하하는 비속이입니다.") 
+       
+    if "정신병" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어로 상처받을 일부 소수자들의 마음을 생각하세요.")   
+       
+    if "정1신병" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어로 상처받을 일부 소수자들의 마음을 생각하세요.")               
        
     if "보빨" in message.content:
         await message.delete()
@@ -1285,6 +1325,12 @@ async def on_message(message):
       
     if "죽을" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 생명은 소중한 것입니다.")
+      
+    if "죽이" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 생명은 소중한 것입니다.") 
+      
+    if "죽여" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 생명은 소중한 것입니다.")        
       
     if message.content.startswith('자살'):
          embed = discord.Embed(
