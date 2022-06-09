@@ -239,6 +239,10 @@ async def on_message(message):
         embed.add_field(name="===", value="[플레이그라운드 리뉴얼]", inline=False) 
         embed.add_field(name="===", value="[에란겔 밀리터리 베이스 철교 리뉴얼]", inline=False)
         embed.add_field(name="===", value="======", inline=False)    
+        embed.add_field(name="2.0.0", value="[한국 4주년 대규모 이벤트]", inline=False)   
+        embed.add_field(name="===", value="[리빅 정식 업데이트]", inline=False) 
+        embed.add_field(name="===", value="[배틀그라운드 모바일 x 에반게리온(5/19~6/19)]", inline=False)
+        embed.add_field(name="===", value="======", inline=False)             
         await message.channel.send(channel,embed=embed)          
 
     if message.content.startswith("=MBTI"):
@@ -619,20 +623,6 @@ async def on_message(message):
         await message.channel.send(channel,embed=embed)
 
     if message.content.startswith('=7호선'):
-        channel = message.channel
-        embed = discord.Embed(
-            title = 'Introducing 7호선  ',
-            description = '',
-            color = discord.Color.red()
-        )
-
-        dtime = datetime.datetime.now()
-        embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+"")
-        embed.add_field(name = "7호선", value = "대한민국의 고딩이다. 05년생으로 확인되었으며, 디시인사이드에선 iPhoneOS(iphoneos)라는 고닉으로 활동하고(현재 탈퇴한 계정), 현재 사용중인 계정은 STARSAILOR(bestshooter)이다. 디스코드 태그는 iPhoneOS#3138였으나 현재는 Legionnaire#3138 이다.  주 활동 갤러리는 타르코프 갤러리였으나 현재는 바이크 갤러리인 것으로 알려져있다.",inline = False)
-        embed.add_field(name="그의", value="MBTI는 INFP 이다. 타르코프와 오버워치를 즐겨하며, 오버워치에서는 라인 원챔이다. 심해에서 탱커를 해주는 것은 사실 굉장히 고마운 행위이나, 팀을 생각할 줄 모르는 플레이를 남발한다. 남발하는 수준이 아니다. 매판 솔플 하면서 팀원이 그거에 대해 반응을 보이면 먹잇감을 물은 하이에나처럼 정치질을 시전하기 시작한다. 매판 이렇게 플레이 하지만, 욕설로 정지를 먹은적이 없다.", inline=False)
-        await message.channel.send(channel,embed=embed)
-        
-    if message.content.startswith('=7호선'):
          embed = discord.Embed(
          title='그는 실제로 정신이 매우 아프다. 자신의 아픔을 직접적으로 호소하는 모습을 보였다.',
          description='그의 본가는 서울특별시 동작구에 존재한다. 현재는 자취하는 중으로 추정된다. ',
@@ -660,8 +650,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (1/3)',
-         description='자기랑 게임을 안돌려주는 비스킷의 관심을 끌기 위해 빅광탈맨인척 주작질',
+         title='관심을 끌기 위해 또다른 칠호선의 자아가',
+         description='나냡의 관심을 끌기 위해 주작질을 하는 중이다.',
 
         )
 
@@ -673,8 +663,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (2/3)',
-         description='자기 혼자서 북치고 장구치고 다 하는 모습을 보여줌.',
+         title='그는 해리성 정체장애 의심 환자이다.',
+         description='혼자서도 잘논다. 이건 심각한 수준이다;',
 
         )
 
@@ -686,8 +676,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (3/3)',
-         description='먼저 제발로 디코서버 나가면서 [다시는 디코섭 들어갈일 없다며?]',
+         title='칠호선 A는 제발로 삼사모를 나갔지만',
+         description='칠호선 B는 삼사모에 다시 들어가고싶어한다. ?]',
 
         )
 
@@ -699,8 +689,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='그가 해리성 정체장애 의심 환자처럼 보이는 이유 (3/3)',
-         description='먼저 제발로 디코서버 나가면서 [다시는 디코섭 들어갈일 없다며?] +추가',
+         title='칠호선 A와 칠호선 B와의 전투가 발발하였다.',
+         description='',
 
         )
 
@@ -708,7 +698,7 @@ async def on_message(message):
          randomNum = random.randrange(1, 2)
          urlF = urlBase+str(randomNum)
          embed.set_image(url = urlF)
-         await message.channel.send( embed=embed)            
+         await message.channel.send( embed=embed)           
 
     if message.content.startswith('=나냡'):
         channel = message.channel
