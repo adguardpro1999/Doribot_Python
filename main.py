@@ -1439,8 +1439,14 @@ async def on_message(message):
     if "차베즈" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 마블 시네마틱 유니버스의 차,베,즈는 원작인 마,블,코,믹,스에 등장하는 캐릭터로 코드네임은 미스 아,메,리,카이며 본명은 아,메,리,카,차,베,즈이죠, 담당 배우는 소,치,틀,고,메,즈입니다.")  
       
+    if "소치틀" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 마블 시네마틱 유니버스의 차,베,즈는 원작인 마,블,코,믹,스에 등장하는 캐릭터로 코드네임은 미스 아,메,리,카이며 본명은 아,메,리,카,차,베,즈이죠, 담당 배우는 소,치,틀,고,메,즈입니다.")        
+      
     if "미즈마블" in message.content:
-        await message.channel.send(f"{message.author.mention} 님, 마블 시네마틱 유니버스의 미,즈,마,블은 마,블 최초의 성,공,한,덕,후 히어로 입니다. 본명은 카,말,라 칸이며 무,슬,림 출신 히어로이죠. 카,말,라 칸은 어벤져스 멤버들을 덕질하는게 취미죠. 그녀의 조상은 크리족입니다. 우연찮게 증조할머니의 유품을 차게된 그녀는 결국 자신 몸안에 잠재되어있던 능력을 발현시키죠. ")         
+        await message.channel.send(f"{message.author.mention} 님, 마블 시네마틱 유니버스의 미,즈,마,블은 마,블 최초의 성,공,한,덕,후 히어로 입니다. 본명은 카,말,라 칸이며 무,슬,림 출신 히어로이죠. 카,말,라 칸은 어벤져스 멤버들을 덕질하는게 취미죠. 그녀의 조상은 크리족입니다. 우연찮게 증조할머니의 유품을 차게된 그녀는 결국 자신 몸안에 잠재되어있던 능력을 발현시키죠. 담당 배우는 이,만,벨,라,니입니다.")   
+      
+    if "이만벨라니" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 마블 시네마틱 유니버스의 미,즈,마,블은 마,블 최초의 성,공,한,덕,후 히어로 입니다. 본명은 카,말,라 칸이며 무,슬,림 출신 히어로이죠. 카,말,라 칸은 어벤져스 멤버들을 덕질하는게 취미죠. 그녀의 조상은 크리족입니다. 우연찮게 증조할머니의 유품을 차게된 그녀는 결국 자신 몸안에 잠재되어있던 능력을 발현시키죠. 담당 배우는 이,만,벨,라,니입니다.")           
       
     if "새해" in message.content:
         await message.channel.send(f"{message.author.mention} 님, [새_해] 복 많이 받으시길 바랍니다.")     
