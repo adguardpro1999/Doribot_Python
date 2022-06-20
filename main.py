@@ -621,6 +621,20 @@ async def on_message(message):
         embed.add_field(name="=1인칭 꿈나무", value="위와 설명이 동일함.", inline=False)
         embed.add_field(name="=들쥐", value=" 마찬가지로, 위와 설명이 동일함. ", inline=False) 
         await message.channel.send(channel,embed=embed)
+        
+    if message.content.startswith('=7호선'):
+        channel = message.channel
+        embed = discord.Embed(
+            title = 'Introducing 7호선',
+            description = '',
+            colour = discord.Colour.red()
+        )
+
+        dtime = datetime.datetime.now()
+        embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+" ")  
+        embed.add_field(name ="7호선", value = "대한민국의 고딩이다. 05년생으로 확인되었으며, 디시인사이드에선 iPhoneOS(iphoneos)라는 고닉으로 활동하고(현재 탈퇴한 계정), 현재 사용중인 계정은 STARSAILOR(bestshooter)이다. 디스코드 태그는 iPhoneOS#3138였으나 현재는 Legionnaire#3138 이다. 주 활동 갤러리는 타르코프 갤러리였으나 현재는 바이크 갤러리인 것으로 알려져있다.",inline = False)
+        embed.add_field(name ="그의", value = "MBTI는 INFP 이다. 타르코프와 오버워치를 즐겨하며, 오버워치에서는 라인 원챔이다. 심해에서 탱커를 해주는 것은 사실 굉장히 고마운 행위이나, 팀을 생각할 줄 모르는 플레이를 남발한다. 남발하는 수준이 아니다. 매판 솔플 하면서 팀원이 그거에 대해 반응을 보이면 먹잇감을 물은 하이에나처럼 정치질을 시전하기 시작한다. 매판 이렇게 플레이 하지만, 욕설로 정지를 먹은적이 없다.",inline = False)
+        await message.channel.send(channel,embed=embed)        
 
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
@@ -663,7 +677,7 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='그는 해리성 정체장애 의심 환자이다.',
+         title='그는 인격이 여러개로 추정된다.',
          description='혼자서도 잘논다. 이건 심각한 수준이다;',
 
         )
@@ -677,7 +691,7 @@ async def on_message(message):
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
          title='칠호선 A는 제발로 삼사모를 나갔지만',
-         description='칠호선 B는 삼사모에 다시 들어가고싶어한다. ?]',
+         description='칠호선 B는 삼사모에 다시 들어가고싶어한다.]',
 
         )
 
