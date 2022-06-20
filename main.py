@@ -691,7 +691,7 @@ async def on_message(message):
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
          title='칠호선 A는 제발로 삼사모를 나갔지만',
-         description='칠호선 B는 삼사모에 다시 들어가고싶어한다.]',
+         description='칠호선 B는 삼사모에 다시 들어가고싶어한다.',
 
         )
 
@@ -699,7 +699,33 @@ async def on_message(message):
          randomNum = random.randrange(1, 2)
          urlF = urlBase+str(randomNum)
          embed.set_image(url = urlF)
-         await message.channel.send( embed=embed)      
+         await message.channel.send( embed=embed)  
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='칠호선 A는 삼사모를 나간것을 후회중이다.',
+         description=' ',
+
+        )
+
+         urlBase = 'https://i.imgur.com/XAXCCzt.jpeg'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)  
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='칠호선 A는 옛 멤버들을 찾아가 초대해달라고 부탁한다.',
+         description='정말 구질구질하기 짝이없다.',
+
+        )
+
+         urlBase = 'https://i.imgur.com/frVRRBe.jpeg'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)           
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
