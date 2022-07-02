@@ -1637,6 +1637,15 @@ async def on_message(message):
     if "코로나" in message.content:
         await message.channel.send(f"{message.author.mention} 님, 코,로,나,1,9로 스트레스 받을 때 혼자 힘들어하지 말고 전문가의 도움을 받으세요.")   
       
+    if "탑건" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 탑,건은 1986년에 개봉한 미국 영화, 현 386세대의 일원이라면 한번쯤은 영화관에서 본 그 추억의 영화죠. 후속작은 36년만에 개봉을 하였습니다.")                 
+
+    if "TOP GUN" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 탑,건은 1986년에 개봉한 미국 영화, 현 386세대의 일원이라면 한번쯤은 영화관에서 본 그 추억의 영화죠. 후속작은 36년만에 개봉을 하였습니다.")   
+
+    if "top gun" in message.content:
+        await message.channel.send(f"{message.author.mention} 님, 탑,건은 1986년에 개봉한 미국 영화, 현 386세대의 일원이라면 한번쯤은 영화관에서 본 그 추억의 영화죠. 후속작은 36년만에 개봉을 하였습니다.")       
+      
     if message.content.startswith('코로나'):
          embed = discord.Embed(
          title='',
