@@ -976,7 +976,35 @@ async def on_message(message):
        
     if "섹1스" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")       
+        await message.channel.send(f"{message.author.mention} 님이 사용한 단어는 성 적인 단어로, 우리 서버 규칙을 어기는 행위죠.")   
+       
+    if "짱깨" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 중,국,인들을 비하하지 마세요.") 
+       
+    if "짱1깨" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 중,국,인들을 비하하지 마세요.")   
+       
+    if "시팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")
+       
+    if "시1팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")  
+       
+    if "씨팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")       
+       
+    if "씨1팔" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님이 금칙어를 사용하였습니다.")           
+       
+    if "십년" in message.content:
+        await message.delete()
+        await message.channel.send(f"{message.author.mention} 님, 해당 단어는 여,성 혐,오적인 단어 입니다.")         
        
     if "씨발" in message.content:
         await message.delete()
@@ -1304,11 +1332,7 @@ async def on_message(message):
        
     if "보1빨" in message.content:
         await message.delete()
-        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.")        
-       
-    if "물소" in message.content:
-        await message.delete()
-        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.")           
+        await message.channel.send(f"{message.author.mention} 님, 일,베 또는 디,시와 같은 남초 커뮤니티에서 파생된 단어를 사용하지 마세요.")                        
        
     if "이기" in message.content:
         await message.delete()
