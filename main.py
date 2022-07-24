@@ -242,7 +242,11 @@ async def on_message(message):
         embed.add_field(name="2.0.0", value="[한국 4주년 대규모 이벤트]", inline=False)   
         embed.add_field(name="===", value="[리빅 정식 업데이트]", inline=False) 
         embed.add_field(name="===", value="[배틀그라운드 모바일 x 에반게리온(5/19~6/19)]", inline=False)
-        embed.add_field(name="===", value="======", inline=False)             
+        embed.add_field(name="===", value="======", inline=False)   
+        embed.add_field(name="2.1.0", value="[고대 이집트 모드 2]", inline=False)   
+        embed.add_field(name="===", value="[신규 보급 총기 - AMR]", inline=False) 
+        embed.add_field(name="===", value="[개인훈련장 - 사운드 플레이 훈련]", inline=False)
+        embed.add_field(name="===", value="======", inline=False)          
         await message.channel.send(channel,embed=embed)          
 
     if message.content.startswith("=MBTI"):
