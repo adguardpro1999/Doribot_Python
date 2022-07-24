@@ -1687,35 +1687,35 @@ async def on_message(message):
          embed.set_image(url = urlF)
          await message.channel.send( embed=embed)         
          
-    if message.content.startswith("게임") or message.content.startswith("겜"):          
+    if message.content.startswith("게임") or message.content.startswith("겜") or message.content.startswith("게1임") or message.content.startswith("Game") or message.content.startswith("game"):      
         dtime = datetime.datetime.now()
         randomNum = random.randrange(1, 14)
         if randomNum==1:
-            await message.channel.send(embed=discord.Embed(title="[게임]은 질병입니다.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="게,임은 질병입니다.", color=0x00ff00))
         if randomNum==2:
-            await message.channel.send(embed=discord.Embed(title="[게임]중독.. 무엇을 상상하든 그이상을 파괴합니다.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="게,임중독.. 무엇을 상상하든 그이상을 파괴합니다.", color=0x00ff00))
         if randomNum==3:
-            await message.channel.send(embed=discord.Embed(title="[게임]은 마약입니다.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="게,임은 마약입니다.", color=0x00ff00))
         if randomNum==4:
-            await message.channel.send(embed=discord.Embed(title="[부모]님께 게임 시간을 정해달라고 부탁드려보세요." ,color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="부,모님께 게,임 시간을 정해달라고 부탁드려보세요." ,color=0x00ff00))
         if randomNum==5:
-            await message.channel.send(embed=discord.Embed(title="[부모]님과 자녀가 게임을 같이하면 오히려 역효과가 납니다. 서로 하지 말아주세요.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="부,모님과 자녀가 게,임을 같이하면 오히려 역효과가 납니다. 서로 하지 말아주세요.", color=0x00ff00))
         if randomNum==6:
-            await message.channel.send(embed=discord.Embed(title="[컴퓨터]를 켜고 끄는 시간을 정합시다.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="컴,퓨,터를 켜고 끄는 시간을 정합시다.", color=0x00ff00))
         if randomNum==7:
-            await message.channel.send(embed=discord.Embed(title="[컴퓨터]를 거실같은 공개된 장소로 옮기세요. 지금 당장! ", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="컴,퓨,터를 거실같은 공개된 장소로 옮기세요. 지금 당장! ", color=0x00ff00))
         if randomNum==8:
-            await message.channel.send(embed=discord.Embed(title="[게임]을 안하면 불안한가요? 게임을 함으로써 당신 인생이 위험합니다.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="게,임을 안하면 불안한가요? 게,임을 함으로써 당신 인생이 위험합니다.", color=0x00ff00))
         if randomNum==9:
-            await message.channel.send(embed=discord.Embed(title="[지금] 당장 게임을 삭제합시다. 게임을 삭제했나요? 당신은 새 사람이 되었습니다.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="지,금 당장 게,임을 삭제합시다. 게임을 삭제했나요? 당신은 새 사람이 되었습니다.", color=0x00ff00))
         if randomNum==10:
-            await message.channel.send(embed=discord.Embed(title="[처음]부터 게임을 기피하기는 힘들죠. 우리 사용 시간을 정해보아요.", color=0x00ff00))
+            await message.channel.send(embed=discord.Embed(title="처,음부터 게,임을 기피하기는 힘들죠. 우리 사용 시간을 정해보아요.", color=0x00ff00))
         if randomNum==11:
-            await message.channel.send(embed=discord.Embed(title="[우리함께] 산책나갈래요?", color=0xff0000))  
+            await message.channel.send(embed=discord.Embed(title="우,리,함,께 산책나갈래요?", color=0xff0000))  
         if randomNum==12:
-            await message.channel.send(embed=discord.Embed(title="[사람들과] 대화를 많이 합시다. 물론 오프라인으로요. ", color=0xff0000)) 
+            await message.channel.send(embed=discord.Embed(title="사,람,들,과 대화를 많이 합시다. 물론 오프라인으로요. ", color=0xff0000)) 
         if randomNum==13:
-            await message.channel.send(embed=discord.Embed(title="[게임]말고 새로운 취미는 없나요? 우리 함께 새로운 취미를 탐색해볼까요?", color=0xff0000))
+            await message.channel.send(embed=discord.Embed(title="게,임말고 새로운 취미는 없나요? 우리 함께 새로운 취미를 탐색해볼까요?", color=0xff0000))
           
           
                               
