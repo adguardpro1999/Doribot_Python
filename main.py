@@ -707,7 +707,7 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='칠호선 A는 삼사모를 나간것을 후회중이다.',
+         title='칠호선 B는 칠호선 A때문에 삼사모를 나간것을 후회중이다.',
          description=' ',
 
         )
@@ -720,7 +720,7 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='칠호선 A는 옛 멤버들을 찾아가 초대해달라고 부탁한다.',
+         title='칠호선 B는 옛 멤버들을 찾아가 초대해달라고 부탁한다.',
          description='정말 구질구질하기 짝이없다.',
 
         )
