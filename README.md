@@ -28,7 +28,7 @@
 <img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/3.PNG?raw=true">
 <img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/4.PNG?raw=true">
 <img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/5.PNG?raw=true">
-<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/6.PNG?raw=true">
+<img src="https://github.com/queenanna1999/Doribot_Python/blob/main/ss/6.png?raw=true">
 </pre>
 
 <h1>봇 초대 링크</h1>
