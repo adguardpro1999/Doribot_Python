@@ -638,6 +638,7 @@ async def on_message(message):
         embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+" ")  
         embed.add_field(name ="7호선", value = "대한민국의 고딩이다. 05년생으로 확인되었으며, 디시인사이드에선 iPhoneOS(iphoneos)라는 고닉으로 활동하고(현재 탈퇴한 계정), 현재 사용중인 계정은 STARSAILOR(bestshooter)이다. 디스코드 태그는 iPhoneOS#3138였으나 현재는 Legionnaire#3138 이다. 주 활동 갤러리는 타르코프 갤러리였으나 현재는 바이크 갤러리인 것으로 알려져있다.",inline = False)
         embed.add_field(name ="그의", value = "MBTI는 INFP 이다. 타르코프와 오버워치를 즐겨하며, 오버워치에서는 라인 원챔이다. 심해에서 탱커를 해주는 것은 사실 굉장히 고마운 행위이나, 팀을 생각할 줄 모르는 플레이를 남발한다. 남발하는 수준이 아니다. 매판 솔플 하면서 팀원이 그거에 대해 반응을 보이면 먹잇감을 물은 하이에나처럼 정치질을 시전하기 시작한다. 매판 이렇게 플레이 하지만, 욕설로 정지를 먹은적이 없다.",inline = False)
+        embed.add_field(name ="아래 자료들은", value = "그의 화려한 전적들이다. #2022년 07월 31일에 마지막으로 수정됨.",inline = False)
         await message.channel.send(channel,embed=embed)        
 
     if message.content.startswith('=7호선'):
@@ -655,8 +656,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='그의 인격은 여러개로 나뉘어진듯 하다.',
-         description='상당히 인격이 불안정해 보인다.',
+         title='그는 관심을 하루라도 못 받으면 입에 가시가 돋는다.',
+         description='관심종자계의 안중근 선생님이시다.',
 
         )
 
@@ -668,8 +669,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='관심을 끌기 위해 또다른 칠호선의 자아가',
-         description='나냡의 관심을 끌기 위해 주작질을 하는 중이다.',
+         title='관심을 끌기 위해 그는',
+         description='삼사모 멤버들의 관심을 끌기 위해 구애를 하는 중이다.',
 
         )
 
@@ -681,8 +682,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='그는 인격이 여러개로 추정된다.',
-         description='혼자서도 잘논다. 이건 심각한 수준이다;',
+         title='그는 X소리를 하루라도 하지 않으면 손에 가시가 돋는다.',
+         description=' ',
 
         )
 
@@ -694,8 +695,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='칠호선 A는 제발로 삼사모를 나갔지만',
-         description='칠호선 B는 삼사모에 다시 들어가고싶어한다.',
+         title='그는 관심 받기위해 삼사모를 들락날락 한다.',
+         description=' ',
 
         )
 
@@ -707,7 +708,7 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='칠호선 B는 칠호선 A때문에 삼사모를 나간것을 후회중이다.',
+         title=' ',
          description=' ',
 
         )
@@ -720,8 +721,8 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='칠호선 B는 옛 멤버들을 찾아가 초대해달라고 부탁한다.',
-         description='정말 구질구질하기 짝이없다.',
+         title=' ',
+         description=' ',
 
         )
 
@@ -733,7 +734,7 @@ async def on_message(message):
          
     if message.content.startswith('=7호선'):
          embed = discord.Embed(
-         title='칠호선 A와 칠호선 B와의 전투가 발발하였다.',
+         title=' ',
          description='',
 
         )
@@ -742,7 +743,72 @@ async def on_message(message):
          randomNum = random.randrange(1, 2)
          urlF = urlBase+str(randomNum)
          embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)       
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title=' ',
+         description='',
+
+        )
+
+         urlBase = 'https://i.imgur.com/eOaczVT.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)      
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title=' ',
+         description='',
+
+        )
+
+         urlBase = 'https://i.imgur.com/sbbCCCP.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)       
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title=' ',
+         description='',
+
+        )
+
+         urlBase = 'https://i.imgur.com/wn8Fg7s.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)       
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title='그는 지능이 낮아보인다. 박수현, 김수현 등등,,,',
+         description='이젠 멤버의 이름마저 제대로 외우질 못하는 모습을 볼수 있다.',
+
+        )
+
+         urlBase = 'https://i.imgur.com/QIp7380.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
          await message.channel.send( embed=embed)           
+         
+    if message.content.startswith('=7호선'):
+         embed = discord.Embed(
+         title=' ',
+         description=' ',
+
+        )
+
+         urlBase = 'https://i.imgur.com/GduofXq.png'
+         randomNum = random.randrange(1, 2)
+         urlF = urlBase+str(randomNum)
+         embed.set_image(url = urlF)
+         await message.channel.send( embed=embed)               
 
     if message.content.startswith('=나냡'):
         channel = message.channel
