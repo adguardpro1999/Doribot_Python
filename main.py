@@ -637,7 +637,7 @@ async def on_message(message):
         dtime = datetime.datetime.now()
         embed.set_footer(text=str(dtime.year)+"- "+str(dtime.month)+"- "+str(dtime.day)+" "+str(dtime.minute)+": "+str(dtime.second)+" ")  
         embed.add_field(name ="7호선", value = "대한민국의 고딩이다. 05년생으로 확인되었으며, 디시인사이드에선 iPhoneOS(iphoneos)라는 고닉으로 활동하고(현재 탈퇴한 계정), 현재 사용중인 계정은 STARSAILOR(bestshooter)이다. 디스코드 태그는 iPhoneOS#3138였으나 현재는 Legionnaire#3138 이다. 주 활동 갤러리는 타르코프 갤러리였으나 현재는 바이크 갤러리인 것으로 알려져있다.",inline = False)
-        embed.add_field(name ="그의", value = "MBTI는 INFP 이다. 타르코프와 오버워치를 즐겨하며, 오버워치에서는 라인 원챔이다. 심해에서 탱커를 해주는 것은 사실 굉장히 고마운 행위이나, 팀을 생각할 줄 모르는 플레이를 남발한다. 남발하는 수준이 아니다. 매판 솔플 하면서 팀원이 그거에 대해 반응을 보이면 먹잇감을 물은 하이에나처럼 정치질을 시전하기 시작한다. 매판 이렇게 플레이 하지만, 욕설로 정지를 먹은적이 없다.",inline = False)
+        embed.add_field(name ="그의", value = "MBTI는 INFP였고, 현재는 ENTP라고 한다. 타르코프와 오버워치를 즐겨하며, 오버워치에서는 라인 원챔이다. 심해에서 탱커를 해주는 것은 사실 굉장히 고마운 행위이나, 팀을 생각할 줄 모르는 플레이를 남발한다. 남발하는 수준이 아니다. 매판 솔플 하면서 팀원이 그거에 대해 반응을 보이면 먹잇감을 물은 하이에나처럼 정치질을 시전하기 시작한다. 매판 이렇게 플레이 하지만, 욕설로 정지를 먹은적이 없다.",inline = False)
         embed.add_field(name ="아래 자료들은", value = "그의 화려한 전적들이다. #2022년 07월 31일에 마지막으로 수정됨.",inline = False)
         await message.channel.send(channel,embed=embed)        
 
